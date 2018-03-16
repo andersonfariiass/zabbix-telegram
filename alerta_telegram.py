@@ -7,7 +7,7 @@
 import telebot as tb
 import sys
 
-API_TOKEN='510104967:AAG8-x8MNSQhj12JSvTVVRn0XHM5wsDu4pE'
+API_TOKEN='token_telegram'
 DESTINATARIO=sys.argv[1]
 ASSUNTO=sys.argv[2]
 MENSAGEM=sys.argv[3].replace('/n','\n')
